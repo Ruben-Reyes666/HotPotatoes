@@ -1,0 +1,62 @@
+body
+{
+    background:url(fondo.jpg);
+}
+div 
+{ 
+  width: auto;
+  height: auto;
+  background:#FDFFE1;
+  margin:8px;
+  padding:5px;
+  width:95%; 
+  border: 8px ridge #890000;
+}
+.menu 
+{
+  width:100%;
+  background:#424242;
+  list-style:none;
+  margin:0px;
+  padding:0px; 
+}
+.menu li
+{
+  display:inline-block;
+}
+.menu li a 
+{
+  display:inline-block;
+  color:#FFF;
+  padding: 10px 20px; 
+}
+.menu li a:hover
+{
+  background:#CCC;
+  color:#000; 
+} 
+table, th, td
+{
+    height:auto;
+    width:auto;
+    border: 3px groove gold;
+    border-collapse: collapse;
+}
+td > h2
+{
+    font-size: 15px;
+}
+td:hover
+{
+ background: #BDF9A2;
+}
+h1
+{
+    font-size: 38pt;
+    background:#FFCB52;
+    border-style:dotted;
+    color: #000000;
+    font-family: serif;
+    text-align: center;
+}
+
